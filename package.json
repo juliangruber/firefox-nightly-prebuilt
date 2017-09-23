@@ -1,0 +1,21 @@
+{
+  "name": "firefox-nightly-prebuilt",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "julianguber/firefox-nightly-prebuilt",
+  "description": "Use prebuilt firefox-nightly binaries",
+  "scripts": {
+    "install": "./install.js",
+    "test": "prettier-standard '**.js' && standard"
+  },
+  "dependencies": {
+    "follow-redirects": "^1.2.4",
+    "mount-dmg": "^1.0.0",
+    "promisepipe": "^2.0.0",
+    "shell-escape": "^0.2.0"
+  },
+  "devDependencies": {
+    "prettier-standard": "^6.0.0",
+    "standard": "^10.0.3"
+  }
+}
