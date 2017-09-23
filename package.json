@@ -1,6 +1,6 @@
 {
   "name": "firefox-nightly-prebuilt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "repository": "julianguber/firefox-nightly-prebuilt",
   "description": "Use prebuilt firefox-nightly binaries",
