@@ -32,7 +32,10 @@ const run = async () => {
 
   try {
     const s = await stat(appPath)
-    if (new Date() - s.ctime < ONEDAY) return
+    if (new Date() - s.ctime < ONEDAY) {
+      await writeFile(`${__dirname}/path.txt`, executablePath)
+      return
+    }
   } catch (_) {}
 
   console.error('Downloading Firefox Nightly...')
